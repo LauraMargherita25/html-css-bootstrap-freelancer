@@ -1,0 +1,11 @@
+.container-fluid{
+    height: 100vh;
+
+    background-color: red;
+}
+
+.row{
+    height: 100px;
+
+    background-color: #2c3e50;
+}
