@@ -1,3 +1,4 @@
+/* general rules */
 :root{
     --darkblue1: #2c3e50;
     --green: #1abc9c;
@@ -8,7 +9,9 @@
     padding-top: 3rem!important;
     padding-bottom: 3rem!important;
 }
+/* /general rules */
 
+/* bg color settings */
 header,
 footer{
     background-color: var(--darkblue1);
@@ -26,6 +29,20 @@ footer{
 
 .info{
     background-color: var(--darkblue2);
+}
+/* /bg color settings */
+
+.avatar_size{
+    width: 250px;
+}
+
+.hr_style{
+    width: 100px;
+
+    border-radius: 100px;
+    padding: 3px;
+
+    opacity: 1;
 }
 
 /* .container-fluid{
