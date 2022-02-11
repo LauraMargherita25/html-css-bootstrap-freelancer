@@ -5,12 +5,18 @@
     --darkblue2: #3a546d;
 }
 
-html{
+.font_color_dark{
     color: var(--darkblue1);
 }
 
-.font_color_dark{
-    color: var(--darkblue1);
+a{
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+a:hover{
+    color: white;
 }
 /* /general rules */
 
@@ -98,6 +104,13 @@ footer{
 .label_style{
     font-size: 25px;
 }
+
+.btn_style{
+    background-color: var(--bs-teal);
+    font-size: 20px;
+}
+
+
 /* .container-fluid{
     height: 100vh;
 }
