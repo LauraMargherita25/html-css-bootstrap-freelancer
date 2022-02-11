@@ -75,6 +75,29 @@ footer{
     display: block;
 }
 
+.form_style,
+.txtarea_style{
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+
+    line-height: 50px;
+}
+
+.form-control::placeholder { 
+    color: var(--darkblue1);
+    font-size: 25px;
+    opacity: 1;
+}
+
+.form-control:focus {
+    border-color: var(--bs-primary);
+    box-shadow: none;
+}
+
+.label_style{
+    font-size: 25px;
+}
 /* .container-fluid{
     height: 100vh;
 }
