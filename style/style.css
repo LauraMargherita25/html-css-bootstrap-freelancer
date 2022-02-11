@@ -1,4 +1,9 @@
-.container-fluid{
+.py-6{
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+
+/* .container-fluid{
     height: 100vh;
 }
 
@@ -36,4 +41,29 @@
     background-color: red;
     height: 400px;
     width: 500px;
+} */
+
+
+
+header,
+footer{
+    /* height: 100px; */
+
+    background-color: #2c3e50;
+}
+
+.jumbotrone, 
+.about{
+    background-color: #1abc9c;
+}
+
+
+.form{
+    width: 100%;
+
+    background-color: blue;
+}
+
+.info{
+    background-color: #3a546d;
 }
