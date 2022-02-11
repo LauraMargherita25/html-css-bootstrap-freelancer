@@ -9,10 +9,21 @@
     color: var(--darkblue1);
 }
 
+.font_color_teal{
+    color: var(--bs-teal);
+} 
+
+.round_container{
+    width: 40px;
+    height: 40px;
+}
+
 a{
-    color: white;
-    width: 100px;
-    height: 100px;
+    color: white; 
+    
+    line-height: 2.3;
+    
+    font-size: 16px;
 }
 
 a:hover{
