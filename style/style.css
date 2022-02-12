@@ -29,10 +29,14 @@ a{
 a:hover{
     color: white;
 }
+
+.big_top_padding{
+    padding-top: 4rem;
+}
 /* /general rules */
 
 /* bg color settings */
-header,
+.navbar,
 footer{
     background-color: var(--darkblue1);
 }
@@ -40,11 +44,6 @@ footer{
 .jumbotrone, 
 .about{
     background-color: var(--green);
-}
-
-
-.form{
-    background-color: blue;
 }
 
 .info{
