@@ -21,7 +21,13 @@
 
     <header class="py-2">
 
-        <div class="container">
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Fixed top</a>
+            </div>
+        </nav>
+
+        <!-- <div class="container">
 
             <div class="row text-uppercase">
 
@@ -47,7 +53,7 @@
 
             </div>
 
-        </div>
+        </div> -->
 
     </header>
 
@@ -96,42 +102,61 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="portfolio_img_container position-relative overflow-hidden">
                         <img class="portfolio_img" src="img/cabin.png" alt="">
-                        <div class="lay_over position-absolute"></div>
+                        <div class="lay_over position-absolute top-50 start-50 translate-middle"></div>
+                        <div class="plus_style">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle text-light plus_style"></i>
+                        </div>
+                        
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="portfolio_img_container position-relative overflow-hidden">
                         <img class="portfolio_img" src="img/cake.png" alt="">
-                        <div class="lay_over position-absolute"></div>
+                        <div class="lay_over position-absolute top-50 start-50 translate-middle"></div>
+                        <div class="plus_style">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle text-light plus_style"></i>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="portfolio_img_container position-relative overflow-hidden">
                         <img class="portfolio_img" src="img/circus.png" alt="">
-                        <div class="lay_over position-absolute"></div>
+                        <div class="lay_over position-absolute top-50 start-50 translate-middle"></div>
+                        <div class="plus_style">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle text-light plus_style"></i>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="portfolio_img_container position-relative overflow-hidden">
                         <img class="portfolio_img" src="img/game.png" alt="">
-                        <div class="lay_over position-absolute"></div>
+                        <div class="lay_over position-absolute top-50 start-50 translate-middle"></div>
+                        <div class="plus_style">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle text-light plus_style"></i>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="portfolio_img_container position-relative overflow-hidden">
                         <img class="portfolio_img" src="img/safe.png" alt="">
-                        <div class="lay_over position-absolute"></div>
+                        <div class="lay_over position-absolute top-50 start-50 translate-middle"></div>
+                        <div class="plus_style">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle text-light plus_style"></i>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="portfolio_img_container position-relative overflow-hidden">
                         <img class="portfolio_img" src="img/submarine.png" alt="">
-                        <div class="lay_over position-absolute"></div>
+                        <div class="lay_over position-absolute top-50 start-50 translate-middle"></div>
+                        <div class="plus_style">
+                            <i class="fa-solid fa-plus position-absolute top-50 start-50 translate-middle text-light plus_style"></i>
+                        </div>
                     </div>
                 </div>
 
@@ -227,9 +252,9 @@
                             <label for="exampleFormControlTextarea1" class="form-label label_style">Message</label>
                             <textarea class="form-control txtarea_style" rows="5"></textarea>
                         </div>
-                </form>
 
-                <button type="button" class="btn btn_style text-light mb-5">Send</button>
+                        <input class="btn btn-primary btn_style mb-5" type="submit" value="Submit">
+                </form>
 
                 </div>
             </div>
@@ -310,79 +335,7 @@
         </div>
 
     </footer>
-    <!-- <div class="row justify-content-md-center justify-content-lg-center header blue">
-        <div class="col-10 col-md-7 col-lg-7 d-flex justify-content-start align-items-center">
-            <h1>START BOOTSTRAP</h1>
-        </div>
-        <div class="col-2 col-md-3 col-lg-3 d-flex justify-content-center align-items-center">
-            <p>MENU</p>
-        </div>
-    </div>
-
-    <div class="row d-flex flex-column justify-content-center align-items-center hero green">
-
-    </div>
-
-    <div class="row d-flex justify-content-center portfolio white">
-        <div class="col-12 d-flex justify-content-center align-items-center">
-            <h1>Lorem</h1>
-        </div>
-
-        <div class="row d-flex justify-content-center flex-wrap row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col d-flex justify-content-center">
-                <img class="mb-1" src="https://picsum.photos/200/200" alt="">
-            </div>
-            <div class="col d-flex justify-content-center">
-                <img class="mb-1" src="https://picsum.photos/200/200" alt="">
-            </div>
-            <div class="col d-flex justify-content-center">
-                <img class="mb-1" src="https://picsum.photos/200/200" alt="">
-            </div>
-            <div class="col d-flex justify-content-center">
-                <img class="mb-1" src="https://picsum.photos/200/200" alt="">
-            </div>
-            <div class="col d-flex justify-content-center">
-                <img class="mb-1" src="https://picsum.photos/200/200" alt="">
-            </div>
-            <div class="col d-flex justify-content-center">
-                <img class="mb-1" src="https://picsum.photos/200/200" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div class="row d-flex justify-content-center about green">
-        <div class="col-12 d-flex justify-content-center align-items-center">
-            <h1>Lorem</h1>
-        </div>
-
-        <div class="row d-flex justify-content-center flex-wrap row-cols-1 row-cols-md-2 row-cols-md-2">
-            <div class="col d-flex justify-content-center">
-                <img class="mb-1" src="https://picsum.photos/200/200" alt="">
-            </div>
-            <div class="col d-flex justify-content-center">
-                <img class="mb-1" src="https://picsum.photos/200/200" alt="">
-            </div>
-        </div>
-
-        <div class="col-12 d-flex justify-content-center align-items-center">
-            <h1>Lorem</h1>
-        </div>
-    </div>
-
-    <div class="row d-flex justify-content-center contact white">
-        <div class="col-12 d-flex justify-content-center align-items-center">
-            <h1>Lorem</h1>
-        </div>
-    </div>
-
-    <div class="row d-flex justify-content-center align-items-center info">
-
-    </div>
-
-    <div class="row footer blue">
-
-    </div> -->
-
+    
 </body>
 
 </html>

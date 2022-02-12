@@ -79,16 +79,22 @@ footer{
 
     display: none;
 
-    top: 0;
-    left: 0;
-    right: 0;
-
     background-color: var(--green);
 
     opacity: .6;
 }
 
 .portfolio_img_container:hover .lay_over{
+    display: block;
+}
+
+.plus_style{
+    font-size: 100px;
+    
+    display: none;
+}
+
+.portfolio_img_container:hover .plus_style{
     display: block;
 }
 
@@ -118,47 +124,12 @@ footer{
 
 .btn_style{
     background-color: var(--bs-teal);
+
     font-size: 20px;
+
+    border: none;
 }
 
-
-/* .container-fluid{
-    height: 100vh;
+.btn_style:hover{
+    background-color: var(--bs-green);
 }
-
-[class*="col"]{
-    background-color: antiquewhite;
-    border: 1px solid red;
-}
-
-.blue{
-    height: 100px;
-
-    background-color: #2c3e50;
-}
-
-.green{
-    
-
-    background-color: #1abc9c;
-}
-
-.white{
-
-
-    background-color: white;
-}
-
-.info{
-    height: 500px;
-
-    background-color: #3a546d;
-}
-
-
-.card{
-    background-color: red;
-    height: 400px;
-    width: 500px;
-} */
-
