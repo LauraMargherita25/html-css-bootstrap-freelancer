@@ -5,13 +5,26 @@
     --darkblue2: #3a546d;
 }
 
-.font_color_dark{
+body{
     color: var(--darkblue1);
 }
 
 .font_color_teal{
     color: var(--bs-teal);
 } 
+
+.big_top_padding{
+    padding-top: 7rem;
+}
+
+.hr_style{
+    width: 100px;
+
+    border-radius: 100px;
+    padding: 3px;
+
+    opacity: 1;
+}
 
 .round_container{
     width: 40px;
@@ -29,11 +42,10 @@ a{
 a:hover{
     color: white;
 }
-
-.big_top_padding{
-    padding-top: 4rem;
-}
 /* /general rules */
+
+
+
 
 /* bg color settings */
 .navbar,
@@ -46,28 +58,22 @@ footer{
     background-color: var(--green);
 }
 
-.info{
+.footer_top{
     background-color: var(--darkblue2);
 }
 /* /bg color settings */
 
+
+
+
+/* header */
 .avatar_size{
     width: 250px;
 }
+/* /header */
 
-.hr_style{
-    width: 100px;
 
-    border-radius: 100px;
-    padding: 3px;
-
-    opacity: 1;
-}
-
-.portfolio_img_container{
-    border-radius: 10px;
-}
-
+/* portfolio */
 .portfolio_img{
     width: 100%;
 }
@@ -76,27 +82,31 @@ footer{
     width: 100%;
     height: 100%;
 
-    display: none;
-
     background-color: var(--green);
 
-    opacity: .6;
-}
-
-.portfolio_img_container:hover .lay_over{
-    display: block;
+    opacity: 0;
+    
+    transition: opacity 1s;
 }
 
 .plus_style{
     font-size: 100px;
     
-    display: none;
+    opacity: 0;
+
+    transition: opacity 1s;
+}
+
+.portfolio_img_container:hover .lay_over{
+    opacity: .6
 }
 
 .portfolio_img_container:hover .plus_style{
-    display: block;
+    opacity: 1;
 }
+/* /portfolio */
 
+/* contact-me */
 .form_style,
 .txtarea_style{
     border-radius: 0;
@@ -132,3 +142,4 @@ footer{
 .btn_style:hover{
     background-color: var(--bs-green);
 }
+/* /contact-me */
